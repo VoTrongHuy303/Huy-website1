@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    max-width: 100vw;
+    margin: 0 auto;
+    background-color: #1a2236;
+
+}
+nav {
+    position: relative;
+    padding: 5px;
+    background-color: #3a4157fd;
+    width: 100vw;
+    text-align: center;
+    z-index: 1;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav>ul>li>a:hover{
+    color: rgb(206, 24, 24);
+}
+.main-content{
+    width: 100%;
+    padding: 50px 50px 50px 0px;
+}
+.product{
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+.pic{
+    width: 50%;
+    float: left;
+    margin: 0px 0px 50px 50px;
+}
+.interact-pic{
+    margin:10px 0px;
+    float: left;
+    color: wheat;
+    width: 40%;
+    
+}
+.interact-pic > h2{
+    text-transform: uppercase;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+.price{
+    position: absolute;
+    bottom: 150px;
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.interact-pic > a{
+    position: absolute;
+    bottom: 0px;
+    margin: 40px 0px;
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(168, 37, 27);
+    border-radius: 5px;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+}
+.interact-pic > a:hover{
+    position: absolute;
+    bottom: 0px;
+    margin: 40px 0px;
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(155, 16, 6);
+    border-radius: 5px;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+.describe{
+    width: 100%;
+    padding: 0px 40px 40px 40px;
+    color: wheat;
+}
+.describe > h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 15px 0px;
+}
+.describe p{
+    color: whitesmoke;
+}
+footer {
+    background-color: #3A4157;
+    width: 100%;
+    height: 100vh;
+    color: antiquewhite;
+    padding: 30px;
+    overflow-y: hidden;
+    
+}
+
+.footer-col{
+    display: inline-block;
+width: 30%;
+margin: 20px;
+padding: 30px;
+text-align: center;
+}
+.footer-col > h2{
+    padding-bottom:30px ;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.footer-col > ul > li{
+    list-style-type: none;
+    
+}
+hr{
+    margin: 50px;
+}

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    padding-top: 30px;
+    background-color: #3a415700;
+    width: 100vw;
+    text-align: center;
+    z-index: 1;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav>ul>li>a:hover{
+    color: rgb(69, 157, 179);
+}
+
+header {
+    position: relative;
+    width: 100vw;
+    height: 140vh;
+
+    background-image: url(../img/planet-1702788_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(50%);
+}
+
+.brand-name {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brand-name>h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    color: white;
+    padding: 50px;
+}
+
+.main-content {
+    width: 100vw;
+    height: 85vh;
+    padding: 80px 60px;
+    background-color: #1a2236;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.introduce{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    padding: 100px 140px 0px 140px;
+}
+
+
+
+.introduce>.col {
+    display: inline-block;
+    width: 30%;
+    height: max-content;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 12px;
+}
+
+.introduce>.col>h4 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: rgb(252, 243, 243);
+}
+
+.anh {
+    width: 25%;
+    height: 40px;
+    margin-right: 50px;
+    float: left;
+    text-align: center;
+    content: "";
+    clear: both;
+    display: table;
+}
+ .infor {
+    float: left;
+    font-size: large;
+    color: wheat;
+    width: 55%;
+}
+
+.infor>h2 {
+    text-transform: uppercase;
+    font-size: x-large;
+    padding-bottom: 10px;
+} 
+
+
+footer {
+    background-color: #3A4157;
+    width: 100%;
+    height: 100vh;
+    color: antiquewhite;
+    padding: 30px;
+    overflow-y: hidden;
+    
+}
+
+.footer-col{
+    display: inline-block;
+width: 30%;
+margin: 20px;
+padding: 30px;
+text-align: center;
+}
+.footer-col > h2{
+    padding-bottom:30px ;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.footer-col > ul > li{
+    list-style-type: none;
+    
+}
